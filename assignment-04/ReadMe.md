@@ -16,7 +16,7 @@
     - The Head Element
     - The Body Element
 9. What is the index.html page for? Where does it go?
-    - The index.html is an HTML file that serves as the home page for a website. This helps people who come to the website find everything as it is what points to other places on the page. 
+    - The index.html is an HTML file that serves as the home page for a website. This helps people who come to the website find other paged. 
 10. Review: What are some of the best naming practices?
     - Avoid multiple subdirectories
     - Create a Root folder that only includes things on the website
