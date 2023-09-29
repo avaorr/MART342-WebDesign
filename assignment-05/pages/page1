@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>
+        This is about the Blacktail Fire
+    </title>
+</header>
+    <body>
+        <h1>Blacktail Fire 2017</h1>
+        
+        <p>
+            The Blacktail Fire was a wildfire in 2017 that was located in the Blacktail Creek area, east of Loco Mountain in the Crazy Mountains. The fire burned 5,000 acreas. 
+        </p>
+
+        <img src ="../images/BlacktailFire.png" alt = "Blacktaile Fire">
+        <br>
+        <a href = "../index.html">this link goes back to the index</a>
+    </body>
+</html>
