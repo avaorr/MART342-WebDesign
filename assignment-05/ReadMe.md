@@ -1,6 +1,6 @@
-*This is my assingment 5*
+## This is my assingment 5
 
-https://avaorr.github.io/MART342-WebDesign/assignment-05 
+https://avaorr.github.io/MART342-WebDesign/assignment-05/
 
 I will use this page to show examples of some new things I have learned this week. 
 
