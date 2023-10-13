@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wildfire Statistics</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a page for wildfire statistics">
+    <meta name="author" content="Ava Orr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: black;
+            font-family: Georgia;
+            font-size: 20px; 
+        }
+        table {
+            width: 100%;
+            table-layout: fixed;
+            border: 2px solid red;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 16px;
+        }
+        .center-text {
+            text-align: center; 
+        }
+    </style>
+</head>
+
+<body>
+    <img src="images/fire.jpeg" width="700" height="200" alt="Fire" />
+    <h1 class="center-text">Wildfire Statistics</h1>
+    <h2 class="center-text">Since 1983, the Federal wildland fire agencies have been tracking wildfire data. Here is a sample of data from National Wildfires 2022-2017.</h2>
+    <p>
+        <table>
+            <colgroup>
+                <col style="width: 33%;">
+                <col style="width: 33%;">
+                <col style="width: 34%;">
+            </colgroup>
+            <tr>
+                <th>Year</th>
+                <th>Fires</th>
+                <th>Acres</th>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td>68,988</td>
+                <td>7,577,183</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>58,985</td>
+                <td>7,125,643</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>58,950</td>
+                <td>10,122,336</td>
+            </tr>
+            <tr>
+                <td>2019</td>
+                <td>50,477</td>
+                <td>4,664,364</td>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>58,083</td>
+                <td>8,767,492</td>
+            </tr>
+        </table>
+    </p>
+        <a href="https://www.nifc.gov/fire-information/statistics/wildfires">See More Statistics</a>
+    </p>
+    <form method="post" action="index.html">
+        <h1 class="center-text">Have you lived in an area that was affected by wildfires?</h1>
+        Location:<br />
+        <input type="text" id="Location" placeholder="Place lived" autofocus>
+        <h2>If yes, what did you do?</h2>
+        <input type="checkbox" name="action" value="nothing">Nothing<br />
+        <input type="checkbox" name="action" value="evacuated">Evacuated<br />
+        <input type="checkbox" name="action" value="other">Other<br />
+        <textarea name="other" id="other" rows="5" cols="50">Any additional information</textarea>
+        <p></p>
+        <h2>Want to learn more about wildfires?</h2>
+        <h2>Contact</h2>
+        <a href="mailto:123@gmail.com">Learn more</a>
+        <p>Subscribe to learn more wildfire statistics</p>
+        <label>
+            <input type="radio" name="newsletter" value="yes">Yes
+        </label>
+        <label>
+            <input type="radio" name="newsletter" value="no">No
+        </label>
+        <br>
+        <input type="submit" name="subscribe" value="Subscribe">
+    </form>
+</body>
+</html>
