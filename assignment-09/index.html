@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="instructable about how to use R Markdowns">
-    <meta name="author" content="Ava Orr">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campfire Instructable</title>
-    <style>
-        div {
-            background-color: lightblue;
-            border: 1px solid darkblue; 
-        }
-        body {
-            font-family: 'Times New Roman', Times, serif;
-        }
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Instructable about how to use R Markdowns">
+        <meta name="author" content="Ava Orr">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Campfire Instructable</title>
+        <style>
+            body {
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center; /* Center text within the body */
+            }
+            div {
+                background-color: lightblue;
+                border: 1px solid darkblue; /* Fixed the border property */
+                margin: 0 auto; /* Center the div horizontally */
+                max-width: 800px; /* Set a maximum width for the content */
+                padding: 20px; /* Add some padding for spacing */
+                text-align: left; /* Reset text alignment within the div */
+            }
+            img {
+                display: block; /* Remove extra space below images */
+                margin: 0 auto; /* Center the images horizontally */
+            }
+            iframe {
+                display: block; /* Remove extra space below iframes */
+                margin: 0 auto; /* Center the iframes horizontally */
+            }
+        </style>
+    </head>
 <body>
     <nav><a href="index.html">Home</a> &vert; <a href="./pages/about.html">about</a> &vert; <a href="./pages/contact.html">contact</a></nav>
     <p>&nbsp;</p>
@@ -24,7 +37,7 @@
         <h2>Introduction to R</h2>
         <ul>
             <li>R is a programming language and free software environment for statistical computing and graphics. It is widely used by data analysts, statisticians, and researchers for a variety of data analysis, statistical modeling, and data visualization tasks. R provides a rich ecosystem of packages and libraries for a wide range of statistical and data manipulation techniques, making it a powerful tool for data science and statistical analysis.</li>
-            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=XcBLEVknqvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XcBLEVknqvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <h3>What Can R Do?</h3>
             <ul>
                 <li>Data Analysis</li>
@@ -35,7 +48,7 @@
             </ul>
             <h3>What is R Markdown</h3>
             <li>R Markdown is a document format and authoring framework that allows you to create dynamic documents that combine code, text, and output (such as tables and plots) in a single document. It was developed as an extension of the R programming language to make it easier to create reports, presentations, articles, and other documents that involve data analysis or statistical modeling.</li>
-            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=HqrRdRrmatk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HqrRdRrmatk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <h3>Key Features of R Markdown and Benefits</h3>
             <ul>
                 <li>Reproducibility</li>
@@ -50,7 +63,7 @@
             </ul>
         </div>
     <h2>Getting Started</h2>
-    <img src="./images/R.png" width="800" height="300">
+    <img src="./images/R.png" width="800" height="400">
     <ul>
         <li>Make Sure R and R Studios is Downloaded 
             <ul>
@@ -58,47 +71,80 @@
             </ul>
         </li>
     </ul>
-    <div> <!-- Opening <div> tag -->
+    <div> 
         <h2>Step 1: Open R</h2>
         <p> Once downloaded, open R on your computer</p>
-        <img src="./images/1.png" width="800" height="300">
+        <img src="./images/1.png" width="800" height="400">
     </div>
     <div>
         <h2>Step 2: Install an R Markdown Package</h2>
-        <img src="./images/2.png" width="800" height="330">
-        <img src="./images/3.png" width="200" height="140"><img src="./images/4.png" width="200" height="140">
+        <figure>
+            <img src="./images/2.png" width="800" height="400" alt="Image 2">
+            <figcaption>Step 2.1: Find the Packages Tab</figcaption>
+        </figure>
+        <figure>
+            <img src="./images/3.png" width="200" height="140" alt="Image 3">
+            <figcaption>Step 2.2: Click "Install Packages"</figcaption>
+        </figure>
+        <figure>
+            <img src="./images/4.png" width="200" height="140" alt="Image 4">
+            <figcaption>Step 2.3: Type "markdown" into box</figcaption>
+        </figure>
         <p>Follow these instructions to open R and install an R Markdown Package:</p>
         <ul>
             <li>Open R</li>
-            <li>Find Packages Tab on Bottom Right of Console</li>
-            <li>Click Install Package</li>
+            <li>Find the "Packages" tab at the bottom right of the console</li>
+            <li>Click "Install Package"</li>
             <li>Type "markdown" into the box</li>
         </ul>
         <p>After you have successfully installed R Markdown, you will receive a message similar to this</p>
-        <img src="./images/5.png" width="800" height="300">
-    </div>
+        <figure>
+            <img src="./images/5.png" width="800" height="400" alt="Image 5">
+            <figcaption>Step 2.4: Successfully Downloaded R Markdown</figcaption>
+        </figure>
+    </div>    
     <div>
         <h2>Step 3: Open a New R Markdown File</h2>
-        <img src="./images/6.png" width="400" height="300"><img src="./images/7.png" width="400" height="300">
-        <p>Follow these instructions to open a new R Markdown</p>
+        <figure>
+            <img src="./images/6.png" width="400" height="300" alt="Image 6">
+            <figcaption>Step 3.1: Navigate to "File" Tab</figcaption>
+        </figure>
+        <figure>
+            <img src="./images/7.png" width="400" height="300" alt="Image 7">
+            <figcaption>Step 3.2: Click "New File" and then "R Markdown"</figcaption>
+        </figure>
+        <p>Follow these instructions to open a new R Markdown:</p>
         <ul>
             <li>Now that R Markdown is installed, navigate to the "File" tab at the top of the screen</li>
             <li>Click "New File"</li>
             <li>Click "R Markdown"</li>
             <li>A new R Markdown file will open that looks like this</li>
-            <img src="./images/8.png" width="800" height="340">
+            <figure>
+                <img src="./images/8.png" width="800" height="340" alt="Image 8">
+                <figcaption>Step 3.3: A New R Markdown File</figcaption>
+            </figure>
         </ul>
     </div>
     <div>
         <h2>Step 4: Experiment with R Markdown</h2>
         <p>R Markdown is useful to run code chunks while keeping text and code separate.</p>
-        <img src="./images/9.png" width="200" height="110">
+        <figure>
+            <img src="./images/9.png" width="200" height="110" alt="Image 9">
+            <figcaption>Step 4.1: Code and Text Separation</figcaption>
+        </figure>
         <ul>
-            <li>Boxes that are Grey is where code goes</li>
-            <li>Boxes that are White is where text goes and will not be run as code</li>
+            <li>Boxes that are Grey are where code goes</li>
+            <li>Boxes that are White are where text goes and will not be run as code</li>
             <li>To Run a code chunk, click on the green arrow</li>
-            <li>Boxes that are White is where text goes and will not be run as code</li>
-            <img src="./images/10.png" width="200" height="120"><img src="./images/11.png" width="200" height="120">
+            <li>Boxes that are White are where text goes and will not be run as code</li>
+            <figure>
+                <img src="./images/10.png" width="200" height="120" alt="Image 10">
+                <figcaption>Step 4.2: Running Code Chunks</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/11.png" width="200" height="120" alt="Image 11">
+                <figcaption>Step 4.3: Running Code Chunks (Continued)</figcaption>
+            </figure>
         </ul>
     </div>
     <div>
