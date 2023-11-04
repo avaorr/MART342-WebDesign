@@ -12,7 +12,7 @@ body {
 .main-container {
     text-align: center;
     border: 10px solid maroon;
-    padding: 20px;
+    padding: 20px 20px 30px; /* Added more top padding */
     background: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     width: 80%;
@@ -28,7 +28,6 @@ header {
 #mainheader {
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    margin-top: 20px; 
 }
 
 .secondary-container {
@@ -41,8 +40,8 @@ header {
 img {
     max-width: 100%;
     height: auto;
-    display: block; 
-    margin: 0 auto; 
+    display: block;
+    margin: 0 auto;
 }
 
 h2 {
