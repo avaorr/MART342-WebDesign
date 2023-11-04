@@ -3,17 +3,16 @@ body{
 }
 
 .main-container {
-    
-    /* Draw a solid border make it maroon */
     border-style: solid;
     border-width: 10px;
-    border-color: maroon;
-    /*Add space between the border and its inside elements. */
-    padding: 10px;
-    /* Color the background dark grey. */
-    background : lightgrey;
+    border-color: red;
+    background: darkblue;
     width: 75%;
-    margin: auto;
+    height: 100vh; /
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: auto; 
 }
 
 div.align{
@@ -25,7 +24,7 @@ div.align{
     margin: auto;
     width:50%;
     padding: 50px;
-    border-bottom: 1px black solid;
+    border-bottom: 1px maroon;
     border-spacing: inherit;
 }
 
@@ -33,7 +32,7 @@ div.align{
     position: relative;
     left: 20px;
     top:5px;
-    color: darkslategray;
+    color: darkorange;
     opacity: .75;
     font-size: 60px;
 }
