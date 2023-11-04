@@ -3,12 +3,10 @@ body {
     background: #F4F4F4;
     color: #333;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
 }
 
 .main-container {
@@ -27,12 +25,19 @@ header {
     color: white;
     padding: 10px;
     border-radius: 10px 10px 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
 
 #mainheader {
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    margin: 20px 0; /* Add this property */
+    position: relative;
+    z-index: 3; /* Increase z-index */
+    margin-top: 20px; /* Add margin-top */
 }
 
 .secondary-container {
@@ -40,7 +45,7 @@ header {
     padding: 20px;
     border: 2px solid maroon;
     border-radius: 10px;
-    overflow: hidden; /* Add this property */
+    overflow: hidden;
 }
 
 img {
