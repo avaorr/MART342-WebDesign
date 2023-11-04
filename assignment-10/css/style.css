@@ -23,6 +23,9 @@ div.align {
 }
 
 #mainheader {
+    position: relative;
+    left: 20px;
+    top:5px;
     color: darkorange;
     opacity: 0.75;
     font-size: 60px;
