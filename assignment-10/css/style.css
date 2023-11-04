@@ -12,10 +12,12 @@ body {
 .main-container {
     text-align: center;
     border: 10px solid maroon;
-    padding: 40px 20px 30px; /* Increase top padding to 40px */
+    padding: 40px 20px 30px;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     width: 80%;
+    position: relative;
+    z-index: 1;
 }
 
 header {
@@ -23,11 +25,17 @@ header {
     color: white;
     padding: 10px;
     border-radius: 10px 10px 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
 
 #mainheader {
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    position: relative; /* Add this property */
 }
 
 .secondary-container {
