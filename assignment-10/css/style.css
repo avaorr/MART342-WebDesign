@@ -1,7 +1,5 @@
 body {
     font-family: 'Times New Roman';
-    display: flex;
-    justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
