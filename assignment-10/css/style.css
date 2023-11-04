@@ -10,12 +10,12 @@ body {
 }
 
 .main-container {
+    text-align: center;
     border: 10px solid maroon;
     padding: 20px;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     width: 80%;
-    text-align: center;
 }
 
 header {
@@ -31,12 +31,10 @@ header {
 }
 
 .secondary-container {
-    margin: auto;
-    width: 100%;
+    margin: 20px;
     padding: 20px;
-    border-bottom: 2px solid maroon;
-    border-spacing: inherit;
-    text-align: left;
+    border: 2px solid maroon;
+    border-radius: 10px;
 }
 
 img {
