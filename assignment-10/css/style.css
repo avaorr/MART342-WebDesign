@@ -1,35 +1,38 @@
-body{
+body {
     font-family: 'Times New Roman';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-style: solid;
     border-width: 10px;
     border-color: red;
     padding: 10px;
-    background : lightblue;
+    background: lightblue;
     width: 75%;
-    margin: auto;
 }
 
-div.align{
+div.align {
     text-align: center;
 }
 
-.secondary-container{
-    
-    margin: auto;
-    width:50%;
+.secondary-container {
+    width: 100%; 
     padding: 50px;
-    border-bottom: 1px maroon;
+    border-bottom: 1px solid maroon;
     border-spacing: inherit;
 }
 
-#mainheader{
-    position: relative;
-    left: 20px;
-    top:5px;
+#mainheader {
     color: darkorange;
-    opacity: .75;
+    opacity: 0.75;
     font-size: 60px;
 }
