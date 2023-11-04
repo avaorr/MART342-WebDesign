@@ -28,6 +28,7 @@ header {
 #mainheader {
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 20px; 
 }
 
 .secondary-container {
@@ -40,6 +41,8 @@ header {
 img {
     max-width: 100%;
     height: auto;
+    display: block; 
+    margin: 0 auto; 
 }
 
 h2 {
