@@ -12,7 +12,7 @@ body {
 .main-container {
     text-align: center;
     border: 10px solid maroon;
-    padding: 20px 20px 30px; /* Added more top padding */
+    padding: 40px 20px 30px; /* Increase top padding to 40px */
     background: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     width: 80%;
