@@ -12,10 +12,12 @@ body {
 .main-container {
     text-align: center;
     border: 10px solid maroon;
-    padding: 40px 20px 30px; /* Increase top padding to 40px */
+    padding: 40px 20px 30px;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     width: 80%;
+    position: relative; /* Add this property */
+    z-index: 1; /* Add this property */
 }
 
 header {
@@ -23,6 +25,11 @@ header {
     color: white;
     padding: 10px;
     border-radius: 10px 10px 0 0;
+    position: absolute; /* Add this property */
+    top: 0; /* Add this property */
+    left: 0; /* Add this property */
+    right: 0; /* Add this property */
+    z-index: 2; /* Add this property */
 }
 
 #mainheader {
