@@ -1,16 +1,10 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
 }
 
 .main-container {
     text-align: center;
-    border: 10px solid maroon;
+    border: 10px solid #800000;
     padding: 40px 20px 30px;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
@@ -29,7 +23,7 @@ header {
     left: 0;
     right: 0;
     z-index: 2;
-    height: 60px; /* Add a fixed height */
+    height: 60px;
 }
 
 #mainheader {
