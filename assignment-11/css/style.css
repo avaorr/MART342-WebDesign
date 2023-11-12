@@ -1,3 +1,4 @@
+/* External CSS Style Sheet */
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -6,22 +7,28 @@ body {
     padding: 0;
     text-align: center;
 }
+
 header {
     background-color: #333;
     color: #fff;
     padding: 10px;
 }
+
 h1 {
     margin-top: 0;
 }
+
 section {
     padding: 20px;
 }
+
+/* Hover Effect */
 a {
     color: #333;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
+
 a:hover {
     color: #ff6600;
 }
