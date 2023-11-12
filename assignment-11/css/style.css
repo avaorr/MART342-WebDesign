@@ -1,16 +1,16 @@
-/* External CSS Style Sheet */
+/* styles.css */
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'OpenSans-Regular', sans-serif;
+    background-color: lightblue;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: darkblue;
+    color: white;
     padding: 10px;
 }
 
@@ -22,7 +22,6 @@ section {
     padding: 20px;
 }
 
-/* Hover Effect */
 a {
     color: #333;
     text-decoration: none;
@@ -30,5 +29,39 @@ a {
 }
 
 a:hover {
-    color: #ff6600;
+    color: white;
+}
+
+div {
+    text-align: left;
+    margin: 10px;
+    font-family: 'OpenSans-Regular', sans-serif;
+}
+
+.title {
+    font-size: 80px;
+    text-shadow: -6px 2px 0 #000;
+    color: darkblue;
+    background-color: lightblue;
+    height: 100px;
+    text-align: center;
+}
+
+#temperature:hover:after {
+    content: "While fall is generally a pleasant season, it's important to be prepared for weather changes. Montana is known for its unpredictable weather, so having warm layers, a jacket, and possibly rain gear is advisable.";
+    font-weight: 400;
+    color: red;
+    font-style: italic;
+}
+
+#temp:hover {
+    background: url("../images/temp.gif");
+    float: right;
+    display: block;
+    width: 500px;
+    height: 400px;
+}
+
+img {
+    padding: 20px 20px;
 }
