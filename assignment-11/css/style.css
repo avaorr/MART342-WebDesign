@@ -1,49 +1,28 @@
-div {
-    text-align: left;
-    font-family: 'RobotoMono', sans-serif;
-    font-style: normal;
-    margin: 10px;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
 }
 
 .title {
-    font-family: 'GlassAntiqua';
-    font-size: 80px;
-    text-shadow: -6px 2px 0 #000;
-    color: aliceblue;
-    background-color: #a9a9a9;
-    height: 100px;
-    text-align: center;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-#neuromirror {
-    font-family: 'MontserratAlternates';
-    font-weight: bold;
-}
-
-#temperature:hover:after {
-    content: "a distinctive class of neurons that discharge both when an individual executes a motor act and when he observes another individual performing the same or a similar motor act.";
-    font-weight: normal;
-    color: red;
-    font-style: italic;
-}
-
-#temp {
-    font-weight: 800;
-}
-
-#temp:hover {
-    background: url("../images/temp.gif");
-    float: right;
-    display: block;
-    width: 500px;
-    height: 400px;
+    background-color: #f0f0f0;
+    padding: 10px;
 }
 
 img {
-    padding: 20px 20px;
-    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add hover effect to the image */
+img:hover {
+    transform: scale(1.1);
+}
+
+.hover-content {
+    display: none;
+}
+
+/* Show image on hover */
+.hover-trigger:hover .hover-content {
+    display: block;
 }
