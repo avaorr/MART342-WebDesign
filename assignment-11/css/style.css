@@ -1,67 +1,51 @@
-/* styles.css */
-
-body {
-    font-family: 'OpenSans-Regular', sans-serif;
-    background-color: lightblue;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-header {
-    background-color: darkblue;
-    color: white;
-    padding: 10px;
-}
-
-h1 {
-    margin-top: 0;
-}
-
-section {
-    padding: 20px;
-}
-
-a {
-    color: #333;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-}
-
-a:hover {
-    color: white;
-}
-
-div {
+div{
     text-align: left;
+    font-family: RobotoMono;
+    font-style: normal;
     margin: 10px;
-    font-family: 'OpenSans-Regular', sans-serif;
 }
 
-.title {
+.title{
+    font-family: PixelifySans;
     font-size: 80px;
     text-shadow: -6px 2px 0 #000;
-    color: darkblue;
-    background-color: lightblue;
+    color:aliceblue;
+    background-color:#a9a9a9;
     height: 100px;
     text-align: center;
 }
 
-#temperature:hover:after {
-    content: "While fall is generally a pleasant season, it's important to be prepared for weather changes. Montana is known for its unpredictable weather, so having warm layers, a jacket, and possibly rain gear is advisable.";
+#neuromirror{
+    font-family: RobotoMono;
+    font-weight: 900;
+}
+
+
+#neuromirror:hover:after {
+
+    content: "a distinctive class of neurons that discharge both when an individual executes a motor act and when he observes another individual performing the same or a similar motor act.";
     font-weight: 400;
     color: red;
     font-style: italic;
 }
 
-#temp:hover {
-    background: url("../images/temp.gif");
+#uncanny {
+  font-weight: 800;
+
+}
+
+#uncanny:hover {
+    background: url("../images/unCannyValley.png");
     float: right;
     display: block;
     width: 500px;
     height: 400px;
 }
 
-img {
+#uppercase {
+    text-transform: uppercase;
+}
+
+img{
     padding: 20px 20px;
 }
