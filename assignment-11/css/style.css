@@ -8,7 +8,7 @@ div{
 .title{
     font-family: GlassAntiqua;
     font-size: 80px;
-    text-shadow: -6px 2px 0 orangered;
+    text-shadow: -6px 2px 0 orange;
     color:red;
     background-color:lightblue;
     height: 100px;
@@ -40,3 +40,16 @@ div{
     width: 500px;
     height: 400px;
 }
+
+#mt {
+    font-weight: 800;
+  
+  }
+  
+  #mt:hover {
+      background: url("../images/MT2.png");
+      float: right;
+      display: block;
+      width: 500px;
+      height: 400px;
+  }
