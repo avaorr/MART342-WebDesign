@@ -1,23 +1,23 @@
-@font-face{
-    font-family:'GlassQntiqua';
+@font-face {
+    font-family: 'GlassAntiqua';
     src: url('../fonts/GlassAntiqua-Regular.ttf') format('truetype');
-    font-style: 'regular';
+    font-style: normal;
 }
 
-@font-face{
+@font-face {
     font-family: 'MontserratAlternates';
     src: url('../fonts/MontserratAlternates-Bold.ttf') format('truetype');
-    font-style: 'bold';
+    font-style: normal;
 }
 
-@font-face{
+@font-face {
     font-family: 'MontserratAlternates';
     src: url('../fonts/MontserratAlternates-Italic.ttf') format('truetype');
-    font-style: 'italic';
+    font-style: italic;
 }
 
-@font-face{
-    font-family:'RoMontserratAlternatesbotoMono';
+@font-face {
+    font-family: 'RobotoMono';
     src: url('../fonts/MontserratAlternates-Black.ttf') format('truetype');
-    font-style: 'normal';
+    font-style: normal;
 }
