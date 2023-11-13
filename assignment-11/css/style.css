@@ -13,14 +13,17 @@ img {
     transition: transform 0.3s ease-in-out;
 }
 
+/* Add hover effect to the image */
 img:hover {
     transform: scale(1.1);
 }
 
-.hover-content {
+/* Hide the image initially */
+.hidden-image {
     display: none;
 }
 
-.hover-trigger:hover + .hover-content {
-    display: block;
+/* Show image when hovering over .hover-trigger */
+.hover-trigger:hover + .hidden-image {
+    display: inline-block;
 }
