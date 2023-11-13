@@ -1,23 +1,23 @@
 @font-face{
-    font-family:'PixelifySans';
-    src: url('../fonts/PixelifySans-SemiBold.ttf') format('truetype');
+    font-family:'GlassQntiqua';
+    src: url('../fonts/GlassAntiqua-Regular.ttf') format('truetype');
+    font-style: 'regular';
+}
+
+@font-face{
+    font-family: 'MontserratAlternates';
+    src: url('../fonts/MontserratAlternates-Bold.ttf') format('truetype');
     font-style: 'bold';
 }
 
 @font-face{
-    font-family: 'RobotoMono';
-    src: url('../fonts/RobotoMono-Bold.ttf') format('truetype');
-    font-style: 'bold';
-}
-
-@font-face{
-    font-family: 'RobotoMono';
-    src: url('../fonts/RobotoMono-Italic.ttf') format('truetype');
+    font-family: 'MontserratAlternates';
+    src: url('../fonts/MontserratAlternates-Italic.ttf') format('truetype');
     font-style: 'italic';
 }
 
 @font-face{
-    font-family:'RobotoMono';
-    src: url('../fonts/RobotoMono-Regular.ttf') format('truetype');
+    font-family:'RoMontserratAlternatesbotoMono';
+    src: url('../fonts/MontserratAlternates-Black.ttf') format('truetype');
     font-style: 'normal';
 }

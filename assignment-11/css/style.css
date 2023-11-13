@@ -6,7 +6,7 @@ div{
 }
 
 .title{
-    font-family: PixelifySans;
+    font-family: GlassAntiqua-Regular;
     font-size: 80px;
     text-shadow: -6px 2px 0 #000;
     color:aliceblue;
@@ -16,12 +16,12 @@ div{
 }
 
 #neuromirror{
-    font-family: RobotoMono;
+    font-family: MontserratAlternates;
     font-weight: 900;
 }
 
 
-#neuromirror:hover:after {
+#temperature:hover:after {
 
     content: "a distinctive class of neurons that discharge both when an individual executes a motor act and when he observes another individual performing the same or a similar motor act.";
     font-weight: 400;
@@ -29,12 +29,12 @@ div{
     font-style: italic;
 }
 
-#uncanny {
+#temp {
   font-weight: 800;
 
 }
 
-#uncanny:hover {
+#temp:hover {
     background: url("../images/temp.gif");
     float: right;
     display: block;
