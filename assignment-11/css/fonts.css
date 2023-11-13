@@ -7,7 +7,7 @@
 @font-face {
     font-family: 'MontserratAlternates';
     src: url('../fonts/MontserratAlternates-Bold.ttf') format('truetype');
-    font-style: normal;
+    font-style: black;
 }
 
 @font-face {
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-    font-family: 'RobotoMono';
+    font-family: 'MontserratAlternates';
     src: url('../fonts/MontserratAlternates-Black.ttf') format('truetype');
-    font-style: normal;
+    font-style: bold;
 }
