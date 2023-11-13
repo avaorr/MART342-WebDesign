@@ -8,8 +8,8 @@ div{
 .title{
     font-family: GlassAntiqua;
     font-size: 80px;
-    text-shadow: -6px 2px 0 white;
-    color:darkblue;
+    text-shadow: -6px 2px 0 orangered;
+    color:red;
     background-color:lightblue;
     height: 100px;
     text-align: center;
@@ -22,9 +22,9 @@ div{
 
 #temperature:hover:after {
 
-    content: "a distinctive class of neurons that discharge both when an individual executes a motor act and when he observes another individual performing the same or a similar motor act.";
+    content: "Hiking, Wildlife Watching, Fishing, Festivals and Events, Photography, and Camping";
     font-weight: 400;
-    color: red;
+    color: orangered;
     font-style: italic;
 }
 
