@@ -4,10 +4,17 @@ body, h1, p, ul, li {
 }
 
 body {
-    background-color: #fff;
-    font-family: 'MontserratAlternates', Arial, sans-serif; 
+    background-color: lightgoldenrodyellow;
+    font-family: MontserratAlternates;
     color: #333;
     margin: 20px;
+}
+
+header {
+    background-color: orange; 
+    color: #fff; 
+    padding: 10px 0;
+    text-align: center;
 }
 
 .title {
@@ -16,6 +23,7 @@ body {
     border-bottom: 2px solid #333;
     padding-bottom: 10px;
     font-family: 'GlassAntiqua', Arial, sans-serif; 
+    color: #333;
 }
 
 .book-list {
