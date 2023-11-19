@@ -1,0 +1,63 @@
+/* Resetting default margin and padding for all elements */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.book-list {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.book-list img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.book-list b {
+    font-size: 1.2em;
+}
+
+.book-list ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.book-list li {
+    margin-bottom: 5px;
+}
+
+/* Centering the last message */
+p:last-child {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Footer style */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #666;
+    font-size: 0.8em;
+}
