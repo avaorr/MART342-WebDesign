@@ -7,12 +7,6 @@
     padding-bottom: 300px;
 }
 
-.site-name {
-    font-size: 24px; 
-    text-align: center;
-    margin-top: 10px; 
-}
-
 body {
     background-color: white;
     font-family: 'GlassAntiqua', sans-serif;
@@ -25,17 +19,6 @@ div {
     font-family: 'GlassAntiqua', sans-serif;
     margin-bottom: 10px;
     padding: 5px;
-}
-
-/* Style for columns */
-.row {
-    display: flex;
-}
-
-.col-6 {
-    flex: 0 0 50%; 
-    padding: 0 10px;
-    box-sizing: border-box; 
 }
 
 h1,
@@ -70,7 +53,7 @@ table {
 
 /* Paragraph Styles */
 p {
-    font-family: Merriweather, sans-serif;
+    font-family: 'MontserratAlternates', sans-serif;
 }
 
 /* Header Styles */
@@ -79,7 +62,7 @@ header {
     top: 0px;
     left: 0px;
     background: linear-gradient(45deg, #FF6B6B, #6B66FF);
-    font-family: Merriweather;
+    font-family: MontserratAlternates;
     text-transform: uppercase;
     margin-top: 0;
     height: 4em;
@@ -89,12 +72,13 @@ header {
     transition: background 0.3s ease-in-out;
 }
 
+/* Set the layout of the menu: */
 .menu-item {
     display: inline-block;
     margin: 1em .2em;
     min-width: 6em;
     text-align: center;
-    background-color: #26272b;
+    background-color: darkslategrey;
     padding: 0.5em 1em;
 }
 
@@ -104,12 +88,12 @@ header {
     margin: 1em .2em;
     min-width: 6em;
     text-align: center;
-    background-color: #26272b;
+    background-color: darkslategrey;
     padding: 0.5em 1em;
 }
 
 .menu-item a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
@@ -125,15 +109,15 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
-    border: 1px solid #000;
+    border: 1px solid black;
     margin: 0.5em 0 0 -1em;
-    color: #000;
-    background-color: #fff;
+    color: black;
+    background-color: white;
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: #000;
+    color: black;
 }
 
 .dropdown:hover .dropdown-content {
@@ -151,55 +135,36 @@ header {
 .dropdown-item:hover,
 .dropdown-item:hover a {
     color: black;
-    background-color: #a2a2a2;
+    background-color: lightslategray;
 }
 
-/* Images */
-.mainimage,
-.secondimage,
-.thirdimage,
-.fourthimage,
-.fifthimage {
-    margin: auto;
+/* Style for the main image */
+.mainimage img,
+.thirdimage img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
 }
 
-.mainimage,
-.secondimage,
-.thirdimage,
-.fourthimage,
-.fifthimage {
-    content: url("../images/");
+/* Style for columns */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px; 
 }
 
-/* Media Queries for Images on Larger Screens */
-@media only screen and (min-width: 600px) {
-    .mainimage {
-        content: url("../images/library.jpeg");
-        float: left;
-    }
+.col-6 {
+    flex: 0 0 50%; 
+    padding: 0 10px;
+    box-sizing: border-box; 
+}
 
-    .secondimage {
-        float: right; 
-        margin: 0 0 20px 20px; 
-    }
-    
-    .small-image {
-        width: 200px; 
-        height: auto; 
-    }
-
-    .thirdimage {
-        content: url("../images/library1.jpeg");
-        float: right;
-    }
-
-    .fourthimage {
-        content: url("../images/library2.jpeg");
-        float: right;
-    }
-
-    .fifthimage {
-        content: url("../images/library3.jpeg");
-        float: right;
-    }
+/* Style for the third image */
+.thirdimage img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    max-height: 200px; 
 }
