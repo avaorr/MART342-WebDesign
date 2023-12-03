@@ -27,6 +27,17 @@ div {
     padding: 5px;
 }
 
+/* Style for columns */
+.row {
+    display: flex;
+}
+
+.col-6 {
+    flex: 0 0 50%; 
+    padding: 0 10px;
+    box-sizing: border-box; 
+}
+
 h1,
 h3,
 h5 {
