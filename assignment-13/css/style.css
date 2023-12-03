@@ -168,8 +168,13 @@ header {
     }
 
     .secondimage {
-        content: url("../images/Fall.jpeg");
-        float: right;
+        float: right; 
+        margin: 0 0 20px 20px; 
+    }
+    
+    .small-image {
+        width: 200px; 
+        height: auto; 
     }
 
     .thirdimage {
