@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* Fonts and Text Styling */
 .textareacomments {
     padding-bottom: 300px;
 }
@@ -27,6 +28,7 @@ h5 {
     font-family: 'MontserratAlternates', sans-serif;
 }
 
+/* Opening Paragraph */
 .opening-paragraph {
     color: black;
     font-size: 16px;
@@ -49,23 +51,37 @@ table {
     padding: 10px;
 }
 
+/* Paragraph Styles */
 p {
     font-family: Merriweather, sans-serif;
 }
 
+/* Header Styles */
 header {
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: #26272b;
+    background: linear-gradient(45deg, #FF6B6B, #6B66FF);
     font-family: Merriweather;
     text-transform: uppercase;
     margin-top: 0;
     height: 4em;
     width: 100%;
     text-align: left;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out;
 }
 
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: #26272b;
+    padding: 0.5em 1em;
+}
+
+/* Menu Item Styles */
 .menu-item {
     display: inline-block;
     margin: 1em .2em;
@@ -84,6 +100,7 @@ header {
     background-color: gray;
 }
 
+/* Dropdown Styles */
 .dropdown {
     display: inline-block;
 }
@@ -134,42 +151,33 @@ header {
 .thirdimage,
 .fourthimage,
 .fifthimage {
-    content: url("../images/road1-small.jpg");
+    content: url("../images/");
 }
 
+/* Media Queries for Images on Larger Screens */
 @media only screen and (min-width: 600px) {
     .mainimage {
-        content: url("../images/road1.jpg");
+        content: url("../images/library.jpeg");
         float: left;
     }
 
     .secondimage {
-        content: url("../images/road2.jpg");
+        content: url("../images/Fall.jpeg");
         float: right;
     }
 
-    /* Adjust other images similarly for larger screens */
-}
+    .thirdimage {
+        content: url("../images/library1.jpeg");
+        float: right;
+    }
 
-/* Columns */
-.col-1 {
-    width: 8.33%;
-}
+    .fourthimage {
+        content: url("../images/library2.jpeg");
+        float: right;
+    }
 
-/* Include styles for other column sizes */
-
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.contactus {
-    width: 50%;
-    margin-left: 25%;
+    .fifthimage {
+        content: url("../images/library3.jpeg");
+        float: right;
+    }
 }
