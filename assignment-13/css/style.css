@@ -11,13 +11,13 @@ body{
 div{
     text-align: left;
     line-height: 1.45em;
-    font-family: Merriweather, sans-serif;
+    font-family: 'GlassAntiqua', Arial, sans-serif;
     margin-bottom: 10px;
     padding: 5px;
 }
 h1, h3, h5{
     text-align: center;
-    font-family: FiraSans, sans-serif;
+    font-family: 'MontserratAlternates', Arial, sans-serif;
     
 }
 .opening-paragraph{
@@ -36,14 +36,14 @@ h1, h3, h5{
 
 table{
     border: 1px dashed black;
-    font-family:  FiraSans, sans-serif;
+    font-family:  'MontserratAlternates', Arial, sans-serif;
     font-weight: 700;
     padding: 10px;
 }
 
 
 p{
-    font-family:  Merriweather, sans-serif;
+    font-family:  'MontserratAlternates', Arial, sans-serif;
 }
 
 /* Set your header design: */
@@ -52,7 +52,7 @@ header {
     top: 0px;
     left: 0px;
     background-color: #26272b;
-    font-family: Merriweather;
+    font-family: 'MontserratAlternates', Arial, sans-serif;
     text-transform: uppercase;
     margin-top: 0;
     height: 4em;
@@ -81,7 +81,6 @@ header {
    
 }
 
-/* Add a dropdown feature: */
 .dropdown {
     display: inline-block;
 }
@@ -103,7 +102,6 @@ header {
     display: block;
 }
 
-/* Style dropdown item display: */
 .dropdown-item {
     display: block;
     text-align: left;
@@ -123,7 +121,6 @@ header {
 
 }
 
-/* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     .mainimage{
         content:url("../images/road1.jpg");
