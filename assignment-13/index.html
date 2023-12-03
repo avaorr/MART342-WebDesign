@@ -1,54 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+    <title>Books Galore</title>
     <meta charset="UTF-8">
+    <meta name="description" content="Explore a world of books">
+    <meta name="author" content="Bookworm Media">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookworm Haven</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#">Home</a></li>
-                <li class="nav-item"><a href="#">Books</a></li>
-                <li class="nav-item"><a href="#">Authors</a></li>
-                <li class="nav-item"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="">
+        <div class="menu-item">
+            <a href="#">Home</a>
+        </div>
+        <div class="menu-item">
+            <a href="./pages/about.html">About</a>
+        </div>
+        <div class="menu-item">
+            <a href="./pages/contact.html">Contact</a>
+        </div>
+        <div class="menu-item dropdown">
+            <a href="genres.html">Genres</a>
+            <div class="dropdown-content">
+                <div class="dropdown-item">
+                    <a href="#" target="_new">Fiction</a>
+                </div>
+                <div class="dropdown-item">
+                    <a href="#" target="_new">Non-Fiction</a>
+                </div>
+                <div class="dropdown-item">
+                    <a href="#" target="_new">Mystery</a>
+                </div>
+            </div>
+        </div>
+        <div class="site-name">
+            Books Galore
+        </div>
     </header>
+    <h1>Welcome to the World of Books</h1>
 
-    <div class="container">
-        <h1>Welcome to Bookworm Haven</h1>
-
-        <section>
-            <div class="opening-paragraph">
-                <p>
-                    Dive into the fascinating world of literature, where imagination knows no bounds. Explore our collection
-                    of timeless classics and contemporary bestsellers that will take you on incredible journeys.
-                </p>
-                <img class="book-image" src="images/book1.jpg" alt="Book Cover 1">
+    <section>
+        <div class="opening-paragraph">
+            <div class="mainimage">
+                <img src="book_image.jpg" alt="Books on a shelf">
             </div>
+            <p>
+                Dive into the vast world of literature, where stories unfold and imagination knows no bounds. Discover
+                tales that captivate the mind and take you on extraordinary journeys.
+            </p>
+        </div>
 
-            <div class="second-paragraph">
-                <p>
-                    Whether you're seeking gripping mysteries, heartwarming tales, or thought-provoking narratives, we have
-                    a book for every reader. Our carefully curated selection ensures there's something for everyone.
-                </p>
-                <img class="book-image" src="images/book2.jpg" alt="Book Cover 2">
-            </div>
+        <div>
+            <h2>Explore Diverse Genres</h2>
+            <p>
+                Whether you're a fan of gripping mysteries, thought-provoking non-fiction, or fantastical adventures in
+                fiction, there's a genre for every book lover's taste.
+            </p>
+        </div>
 
-            <div>
-                <p>
-                    Expand your mind, ignite your imagination, and embark on adventures with the turn of every page. At Bookworm
-                    Haven, we celebrate the love for reading and invite you to join our community of passionate book lovers.
-                </p>
-                <img class="book-image" src="images/book3.jpg" alt="Book Cover 3">
+        <div>
+            <h2>Your Literary Adventure Begins Here</h2>
+            <p>
+                Embark on a literary journey with us. From classic novels to contemporary bestsellers, there's always a
+                new story waiting to be discovered. Let the pages transport you to places unknown and emotions untold.
+            </p>
+            <div class="secondimage">
+                <img src="reading_spot.jpg" alt="A cozy reading spot">
             </div>
-        </section>
-    </div>
+        </div>
+
+        <div>
+            <h2>Expand Your Mind</h2>
+            <p>
+                Books are the keys to unlocking knowledge. Delve into the depths of human history, unravel scientific
+                mysteries, or explore philosophical ideas. Expand your mind and broaden your horizons through the power
+                of reading.
+            </p>
+        </div>
+    </section>
+    <br />
 </body>
 
 </html>
