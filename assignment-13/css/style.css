@@ -1,3 +1,5 @@
+/* Initial Styles */
+
 * {
     box-sizing: border-box;
 }
@@ -73,7 +75,7 @@ header {
     transition: background 0.3s ease-in-out;
 }
 
-/* Set the layout of the menu: */
+/* Set the layout of the menu */
 .menu-item {
     display: inline-block;
     margin: 1em .2em;
@@ -244,4 +246,54 @@ header {
 
 .contactus input[type="submit"]:hover {
     background-color: #574fdb;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    header {
+        font-size: 0.8em;
+    }
+
+    .col-4,
+    .col-6 {
+        flex: 0 0 100%;
+        padding: 0 5px;
+    }
+
+    .thirdimage img {
+        max-height: 150px;
+    }
+
+}
+
+/* Media Query for screens between 768px and 1200px */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    header {
+        font-size: 1em;
+    }
+
+    .col-4,
+    .col-6 {
+        flex: 0 0 50%;
+        padding: 0 10px;
+    }
+
+    .thirdimage img {
+        max-height: 200px;
+    }
+
+}
+
+/* Media Query for screens larger than 1200px */
+@media only screen and (min-width: 1201px) {
+    header {
+        font-size: 1.2em;
+    }
+
+    .col-4,
+    .col-6 {
+        flex: 0 0 33.3333%;
+        padding: 0 10px;
+    }
+
 }
