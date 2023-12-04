@@ -83,15 +83,6 @@ header {
 }
 
 /* Menu Item Styles */
-.menu-item {
-    display: inline-block;
-    margin: 1em .2em;
-    min-width: 6em;
-    text-align: center;
-    background-color: darkslategrey;
-    padding: 0.5em 1em;
-}
-
 .menu-item a {
     color: white;
     text-decoration: none;
@@ -167,4 +158,56 @@ header {
     display: block;
     margin-bottom: 20px;
     max-height: 200px; 
+}
+
+/* Contact Form Styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contactus {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contactus form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactus label {
+    margin-bottom: 10px;
+}
+
+.contactus input,
+.contactus textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contactus input[type="submit"] {
+    background-color: #6B66FF;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.contactus input[type="submit"]:hover {
+    background-color: #574fdb;
 }
