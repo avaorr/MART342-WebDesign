@@ -146,6 +146,22 @@ header {
     margin: 0 -10px; 
 }
 
+.col-4 {
+    flex: 0 0 33.3333%; 
+    padding: 0 10px;
+    box-sizing: border-box; 
+}
+
+.fiction-image img,
+.fantasy-image img,
+.mystery-image img,
+.romance-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
 .col-6 {
     flex: 0 0 50%; 
     padding: 0 10px;
