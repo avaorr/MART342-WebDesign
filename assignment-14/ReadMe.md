@@ -27,7 +27,6 @@
             </li>
         </div>
     </nav>
-
     <div class="container">
         <h1>Welcome to the World of Books</h1>
         <section>
@@ -57,6 +56,48 @@
                 </div>
             </div>
         </section>
+        <section>
+            <h2>Interactive Bookshelf</h2>
+            <canvas id="bookCanvas" width="800" height="400"></canvas>
+            <div id="bookDetails" style="display:none;">
+                <p id="bookInfo"></p>
+            </div>
+        </section>
     </div>
+    <script>
+        var canvas = document.getElementById('bookCanvas');
+        var ctx = canvas.getContext('2d');
+        var books = [
+            { title: 'Book 1', x: 50, y: 250, width: 70, height: 50 },
+            { title: 'Book 2', x: 150, y: 250, width: 70, height: 50 },
+            // Add more books as needed
+        ];
+        function drawShelf() {
+            ctx.fillStyle = 'brown';
+            ctx.fillRect(0, 300, 800, 100); // Drawing the shelf
+        }
+        function drawBooks() {
+            books.forEach(function(book) {
+                ctx.fillStyle = 'blue';
+                ctx.fillRect(book.x, book.y, book.width, book.height);
+            });
+        }
+        function displayBookInfo(book) {
+            var bookInfo = document.getElementById('bookInfo');
+            bookInfo.textContent = 'You selected: ' + book.title;
+            document.getElementById('bookDetails').style.display = 'block';
+        }
+        canvas.addEventListener('click', function(event) {
+            var x = event.pageX - canvas.offsetLeft,
+                y = event.pageY - canvas.offsetTop;
+            books.forEach(function(book) {
+                if (y > book.y && y < book.y + book.height && x > book.x && x < book.x + book.width) {
+                    displayBookInfo(book);
+                }
+            });
+        });
+        drawShelf();
+        drawBooks();
+    </script>
 </body>
 </html>
