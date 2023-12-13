@@ -57,7 +57,7 @@
             </div>
         </section>
         <section>
-            <h2>Interactive Bookshelf</h2>
+            <h2>Books Read 2023</h2>
             <canvas id="bookCanvas" width="800" height="400"></canvas>
             <div id="bookDetails" style="display:none;">
                 <p id="bookInfo"></p>
@@ -68,13 +68,18 @@
         var canvas = document.getElementById('bookCanvas');
         var ctx = canvas.getContext('2d');
         var books = [
-            { title: 'Book 1', x: 50, y: 250, width: 70, height: 50 },
-            { title: 'Book 2', x: 150, y: 250, width: 70, height: 50 },
-            // Add more books as needed
+            { title: 'Demon Copperhead', x: 50, y: 250, width: 50, height: 100 },
+            { title: 'Lessons in Chemistry', x: 150, y: 250, width: 50, height: 100 },
+            { title: 'Night Circus', x: 200, y: 250, width: 50, height: 100 },
+            { title: 'Book of Night', x: 250, y: 250, width: 50, height: 100 },
+            { title: 'Holly Murder', x: 300, y: 250, width: 50, height: 100 },
+            { title: 'Wheel of Time', x: 350, y: 250, width: 50, height: 100 },
+            { title: 'Belladonna', x: 400, y: 250, width: 50, height: 100 },
+            { title: 'Book of Tea', x: 450, y: 250, width: 50, height: 100 },
         ];
         function drawShelf() {
             ctx.fillStyle = 'brown';
-            ctx.fillRect(0, 300, 800, 100); // Drawing the shelf
+            ctx.fillRect(0, 300, 800, 100); 
         }
         function drawBooks() {
             books.forEach(function(book) {
