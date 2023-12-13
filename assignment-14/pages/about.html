@@ -6,64 +6,55 @@
     <meta name="description" content="Learn about books">
     <meta name="author" content="Montana Media Arts">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="../css/style.css" type="text/css" />
 </head>
 <body>
-    <header class="">
-        <div class="menu-item">
-            <a href="../index.html">Home</a>
-        </div>
-        <div class="menu-item">
-            <a href="about.html">About</a>
-        </div>
-        <div class="menu-item">
-            <a href="contact.html">Contact</a>
-        </div>
-        <div class="menu-item dropdown">
-            <a href="genres.html">Genres</a>
-            <div class="dropdown-content">
-                <div class="dropdown-item">
-                    <a href="#" target="_new">Fiction</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="../index.html">Home</a>
+            <a class="nav-item nav-link" href="about.html">About</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="genres.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Genres
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Fiction</a>
+                    <a class="dropdown-item" href="#">Fantasy</a>
+                    <a class="dropdown-item" href="#">Mystery</a>
+                    <a class="dropdown-item" href="#">Romance</a>
                 </div>
-                <div class="dropdown-item">
-                    <a href="#" target="_new">Fantasy</a>
-                </div>
-                <div class="dropdown-item">
-                    <a href="#" target="_new">Mystery</a>
-                </div>
-                <div class="dropdown-item">
-                    <a href="#" target="_new">Romance</a>
+            </li>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>About Books</h1>
+        <section>
+            <div class="row">
+                <div class="col-12">
+                    <img src="../images/library1.jpeg" alt="Books" class="img-fluid">
                 </div>
             </div>
-        </div>
-    </header>
-    <h1>About Books</h1>
-    <section>
-        <div class="mainimage">
-            <img src="../images/library1.jpeg" alt="Books">
-        </div>
-        <div>
-            <h2>Discover the World Through Books</h2>
-            <p>
-                Dive into captivating stories, explore new worlds, and enrich your mind with knowledge through the pages of books. At Books Galore, we believe in the power of reading to inspire, educate, and entertain.
-            </p>
-        </div>
-        <div>
-            <h2>Our Mission</h2>
-            <p>
-                Our mission is to connect readers with the finest literary works, from classic masterpieces to modern bestsellers. We strive to create a welcoming community passionate about literature and learning.
-            </p>
-        </div>
-        <div>
-            <h2>Join Us on the Reading Journey</h2>
-            <p>
-                Whether you're a seasoned bookworm or just beginning your literary adventure, Books Galore welcomes you. Discover timeless tales, expand your horizons, and let books be your gateway to a world of imagination.
-            </p>
-        </div>
-        <div class="mainimage">
-            <img src="../images/library2.jpeg" alt="Books">
-        </div>
-    </section>
+            <div class="row">
+                <div class="col-12">
+                    <h2>Discover the World Through Books</h2>
+                    <p>Dive into captivating stories, explore new worlds, and enrich your mind with knowledge through the pages of books. At Books Galore, we believe in the power of reading to inspire, educate, and entertain.</p>
+                </div>
+                <div class="col-12">
+                    <h2>Our Mission</h2>
+                    <p>Our mission is to connect readers with the finest literary works, from classic masterpieces to modern bestsellers. We strive to create a welcoming community passionate about literature and learning.</p>
+                </div>
+                <div class="col-12">
+                    <h2>Join Us on the Reading Journey</h2>
+                    <p>Whether you're a seasoned bookworm or just beginning your literary adventure, Books Galore welcomes you. Discover timeless tales, expand your horizons, and let books be your gateway to a world of imagination.</p>
+                </div>
+                <div class="col-12">
+                    <img src="../images/library2.jpeg" alt="Books" class="img-fluid">
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
