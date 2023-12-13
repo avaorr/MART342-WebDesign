@@ -1,5 +1,5 @@
 
-var canvas = document.getElementById('bookCanvas');
+var canvas = document.getElementById('myCanvas');
 var ctx = canvas.getContext('2d');
 var books = [
     { title: 'Demon Copperhead', x: 50, y: 250, width: 50, height: 100 },
