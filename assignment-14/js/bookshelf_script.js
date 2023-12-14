@@ -14,39 +14,33 @@ var books = [
 
 var bookColors = ['red', 'green', 'blue', 'orange', 'purple', 'pink', 'yellow', 'cyan'];
 
+function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+    drawShelf();
+    drawBooks();
+}
+
 function drawShelf() {
     ctx.fillStyle = 'brown';
-    ctx.fillRect(0, 300, 800, 100); 
+    ctx.fillRect(0, 300, canvas.width, 50); // Shelf
 }
 
 function drawBooks() {
+    var bookColors = ['red', 'green', 'blue', 'orange', 'purple', 'pink', 'yellow', 'cyan'];
     books.forEach(function(book, index) {
         ctx.fillStyle = bookColors[index % bookColors.length];
         ctx.fillRect(book.x, book.y, book.width, book.height);
     });
 }
 
-function displayBookInfo(book) {
-    var bookInfo = document.getElementById('bookInfo');
-    bookInfo.textContent = 'You selected: ' + book.title;
-    document.getElementById('bookDetails').style.display = 'block';
-}
-
 canvas.addEventListener('click', function(event) {
-    var rect = canvas.getBoundingClientRect();
-    var x = event.clientX - rect.left;
-    var y = event.clientY - rect.top;
-
+    var x = event.offsetX;
+    var y = event.offsetY;
     books.forEach(function(book) {
-        if (y > book.y && y < book.y + book.height && x > book.x && x < book.x + book.width) {
-            displayBookInfo(book);
+        if (x >= book.x && x <= book.x + book.width && y >= book.y && y <= book.y + book.height) {
+            alert('You selected: ' + book.title); // Simple alert for demonstration
         }
     });
 });
 
-if (canvas && ctx) {
-    drawShelf();
-    drawBooks();
-} else {
-    console.error('Canvas or context not found');
-}
+draw();
